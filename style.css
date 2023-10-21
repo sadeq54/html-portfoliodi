@@ -1,0 +1,116 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+span{
+  color: mediumblue;
+}
+@media(min-width:319px) and (max-width:480px ){
+  .tile-image{
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: seagreen;
+  }
+}
+@media(min-width: 481px) and (max-width:1200px ){
+  .tile-image{
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: seagreen;
+  }
+}
+@media(min-width: 1201px) and (max-width:1600px ){
+  .tile-image{
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: seagreen;
+  }
+}
+@media(min-width: 1601px){
+  .tile-image{
+    width: 200px;
+    height: 200px;
+  }
+  body{
+    background-color: seagreen;
+  }
+}
+img{
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin:  5px;
+}
+.logo{
+  height: 46px;
+  width: 261px;
+}
+.left{
+  float: left;
+  width: 600px;
+
+}
+.card-title,.card-text{
+  
+  
+}
+.right{
+  float:right ;
+  width: 600px;
+
+}
+h1{
+  
+  display: inline-block;
+  float: left;
+}
+
+
+/* 
+
+@media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+*/
